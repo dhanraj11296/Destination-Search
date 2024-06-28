@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.appContainer {
+  display: flex;
+  justify-content: center;
+}
+.destinationSearchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 1140px;
+}
+@media screen and (min-width: 768px) {
+  .destinationSearchContainer {
+    align-items: flex-start;
+  }
+}
+.heading {
+  text-align: center;
+  color: #252627;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+.searchInputContainer {
+  display: flex;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  padding: 15px;
+}
+.searchInput {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: #0f172a;
+}
+.searchIcon {
+  height: 25px;
+  width: 25px;
+}
+.destinList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .destinList {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.destinationItem {
+  list-style-type: none;
+  width: 240px;
+  margin: 20px;
+}
+.destinationImage {
+  width: 240px;
+  height: 175px;
+}
+.name {
+  color: black;
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 20px;
+  }
+}
